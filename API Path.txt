@@ -1,0 +1,15 @@
+1. http://localhost:8080/auth/register
+Params:-
+first_name
+last_name
+email
+password
+
+2. http://localhost:8080/auth/login
+Params:-
+email:"Your Email"
+password: "Your Password"
+
+3. http://localhost:8080/auth/getData
+Header:- 
+Authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUSEVfQ0xBSU0iLCJhdWQiOiJUSEVfQVVESUVOQ0UiLCJpYXQiOjE2MTM3MTA1MjcsIm5iZiI6MTYxMzcxMDUzNywiZXhwIjoxNjEzNzE0MTI3LCJkYXRhIjp7ImlkIjoiMSIsImZpcnN0bmFtZSI6Indkd3FkIiwibGFzdG5hbWUiOiJ3cWR3IiwiZW1haWwiOiJmd2VAbWFpbGluYXRvci5jb20ifX0.yrKLywlwHRcbl26FYs7aHjxZ8ikrZ1dDpwk0VI4vRZg
